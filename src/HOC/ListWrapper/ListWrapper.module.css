@@ -1,0 +1,24 @@
+.Wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    border: 2px solid #242333;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.9);
+}
+
+thead th, tbody tr {
+  border: 3px solid #333;
+  padding: 8px 0;
+}
+
+tbody th {
+    padding: 8px 0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #aaa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ddd;
+}

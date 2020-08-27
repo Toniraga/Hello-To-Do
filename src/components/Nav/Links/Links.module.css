@@ -1,0 +1,16 @@
+.Links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Links li {
+    margin-right: 15px;
+    list-style-type: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.Links li:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.4);
+}

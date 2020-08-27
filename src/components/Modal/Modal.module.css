@@ -1,0 +1,45 @@
+.Modal {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(200, 200, 200, 0.3);
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    width: 400px;
+    animation-name: modalopen;
+    animation-duration: 3s;
+    z-index: 100;
+}
+
+.Modal .header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: #242333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.header .btn {
+    height: 25px;
+    margin: auto 0;
+    background-color: crimson;
+    border: 1px solid transparent;
+}
+
+.main {
+    padding: 20px;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

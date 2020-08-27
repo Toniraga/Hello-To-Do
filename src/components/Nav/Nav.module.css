@@ -1,0 +1,14 @@
+.Nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #5c5c5c;
+    color: #fff;
+}
+
+.Name {
+    font-weight: 800;
+    font-size: x-large;
+}
